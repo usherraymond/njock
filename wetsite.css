@@ -1,0 +1,290 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100%;
+}
+.header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 15px;
+    border: 1px solid white;
+    width: 100%;
+    height: 50px;
+}
+.logo h1::first-letter{
+    color: white;
+    display: inline-block;
+    background-color: green;
+    font-weight: 300;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+}
+nav ul li{
+    cursor: pointer;
+    margin-left: 20px;
+}
+nav ul li:nth-child(1){
+    color: green;
+}
+.search {
+    display: flex;
+    margin-left: 30px;
+}
+button{
+    color: white;
+    background-color: green;
+    padding: 6px 6px;
+    border-radius: 12px;
+    border: solid white;
+}
+.etoile{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.text .one h2:nth-child(2){
+    margin-top: 6px;
+}
+.text .two{
+    margin-top: 30px;
+}
+.text button{
+    margin-top: 50px;
+}
+.text p:nth-child(2){
+    margin-top: 10px;
+}
+.big-image{
+    position: relative;
+    display: inline;
+    bottom: 20px;
+    margin-left: 100px;
+}
+.photo{
+    display: inline;
+    position: absolute;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    margin-left: 30px;
+    
+}
+.spicy{
+    width: 100px;
+    height: 30px;
+}
+.spicy img{
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+}
+
+
+.image img{
+    position: absolute;
+    bottom:70px;
+    right: 80px;
+    width: 350px;
+    height: 350px;
+}
+.petit{
+    display: flex;
+    gap: 6px;
+    border:3px  solid white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 3px 5px wheat;
+}
+.petit img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.petit-1{
+    display: flex;
+    gap: 6px;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.petit-1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.container{
+    display: inline;
+    position: relative;
+    margin-left: 240px;
+}.small{
+    display: flex;
+    position: relative;
+    gap: 50px;
+}
+.footer{
+   display: grid;
+   grid-template-rows: 100px;
+   flex-direction: row;
+   margin-top: 200px;
+}
+.pink{
+    display: inline;
+    position: relative;
+    margin-left: 500px;
+}
+.pink p{
+    margin-left: 10px;
+    color: red;
+}
+.pink h2{
+    margin-top: 6px;
+    font-weight: 700;
+}
+.food{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.fast{
+   display: inline;
+   position: relative;
+   flex-direction: row;
+   flex-wrap: wrap;
+   left: 80px;
+   top: 20px;
+}
+.food-1{
+    display: inline;
+    margin: 10px;
+    width: 270px;
+    height: 210px;
+    border: 1px solid white;
+    box-shadow: 6px 2px 4px #333;
+    border-radius: 20px;
+}
+.fast img{
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.aside-1{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    padding: 30px 30px;
+}
+.aside-A p{
+    color: red;
+    
+}
+.aside-A p,h2{
+    margin-left: 30px;
+}
+.button-A{
+    display: flex;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 30px;
+    gap: 12px;
+}
+.button-A .fleche{
+    width: 30px;
+    height: 30px;
+    color: black;
+    padding: 3px 3px;
+    background-color: white;
+    box-shadow: 6px 2px 4px wheat;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.button-A .right{
+    padding: 3px 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: green;
+}
+.aside2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-direction: column;
+    margin-left: 150px;
+}
+.big-food{
+    width: 200px;
+    height: 250px;
+    border: 1px solid white;
+    box-shadow: 4px 2px 3px wheat;
+    border-radius: 20px;
+}
+.paragraphe{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+}
+.price{
+    margin-left: 20px;
+}
+.para-1{
+    margin-left: 20px;
+}
+.Egg img{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.heart{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 160px;
+    margin-top: 5px;
+    padding: 5px 5px;
+}
+
+
